@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C16991F26FA4DE600F197E3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4C16991E26FA4DE600F197E3 /* Alamofire */; };
 		4C237E7D26F3CA3D0059B1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C237E7C26F3CA3D0059B1BF /* AppDelegate.swift */; };
 		4C237E7F26F3CA3D0059B1BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C237E7E26F3CA3D0059B1BF /* SceneDelegate.swift */; };
 		4C237E8126F3CA3D0059B1BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C237E8026F3CA3D0059B1BF /* ViewController.swift */; };
@@ -14,6 +15,11 @@
 		4C237E8726F3CA3D0059B1BF /* X3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C237E8526F3CA3D0059B1BF /* X3.xcdatamodeld */; };
 		4C237E8926F3CA3E0059B1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C237E8826F3CA3E0059B1BF /* Assets.xcassets */; };
 		4C237E8C26F3CA3E0059B1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C237E8A26F3CA3E0059B1BF /* LaunchScreen.storyboard */; };
+		4C57819926F52BE900CD6DDF /* HolaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C57819826F52BE900CD6DDF /* HolaViewController.swift */; };
+		4C65A070270B873E0027FE91 /* NuevoUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65A06F270B873E0027FE91 /* NuevoUsuarioViewController.swift */; };
+		4CA01CBF2703A21F00359D8D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4CA01CBE2703A21F00359D8D /* Kingfisher */; };
+		4CA01CC12703AEF500359D8D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA01CC02703AEF500359D8D /* Alamofire.swift */; };
+		4CFC020326FCF907009C4DFD /* Ingreso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC020226FCF907009C4DFD /* Ingreso.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,10 @@
 		4C237E8826F3CA3E0059B1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C237E8B26F3CA3E0059B1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C237E8D26F3CA3E0059B1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C57819826F52BE900CD6DDF /* HolaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolaViewController.swift; sourceTree = "<group>"; };
+		4C65A06F270B873E0027FE91 /* NuevoUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoUsuarioViewController.swift; sourceTree = "<group>"; };
+		4CA01CC02703AEF500359D8D /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		4CFC020226FCF907009C4DFD /* Ingreso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingreso.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA01CBF2703A21F00359D8D /* Kingfisher in Frameworks */,
+				4C16991F26FA4DE600F197E3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,11 +73,15 @@
 				4C237E7C26F3CA3D0059B1BF /* AppDelegate.swift */,
 				4C237E7E26F3CA3D0059B1BF /* SceneDelegate.swift */,
 				4C237E8026F3CA3D0059B1BF /* ViewController.swift */,
+				4C57819826F52BE900CD6DDF /* HolaViewController.swift */,
+				4C65A06F270B873E0027FE91 /* NuevoUsuarioViewController.swift */,
 				4C237E8226F3CA3D0059B1BF /* Main.storyboard */,
 				4C237E8826F3CA3E0059B1BF /* Assets.xcassets */,
 				4C237E8A26F3CA3E0059B1BF /* LaunchScreen.storyboard */,
 				4C237E8D26F3CA3E0059B1BF /* Info.plist */,
 				4C237E8526F3CA3D0059B1BF /* X3.xcdatamodeld */,
+				4CA01CC02703AEF500359D8D /* Alamofire.swift */,
+				4CFC020226FCF907009C4DFD /* Ingreso.swift */,
 			);
 			path = X3;
 			sourceTree = "<group>";
@@ -86,6 +102,10 @@
 			dependencies = (
 			);
 			name = X3;
+			packageProductDependencies = (
+				4C16991E26FA4DE600F197E3 /* Alamofire */,
+				4CA01CBE2703A21F00359D8D /* Kingfisher */,
+			);
 			productName = X3;
 			productReference = 4C237E7926F3CA3D0059B1BF /* X3.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +133,10 @@
 				Base,
 			);
 			mainGroup = 4C237E7026F3CA3C0059B1BF;
+			packageReferences = (
+				4C16991D26FA4DE600F197E3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				4CA01CBD2703A21F00359D8D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 4C237E7A26F3CA3D0059B1BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,10 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C57819926F52BE900CD6DDF /* HolaViewController.swift in Sources */,
+				4CFC020326FCF907009C4DFD /* Ingreso.swift in Sources */,
 				4C237E8126F3CA3D0059B1BF /* ViewController.swift in Sources */,
 				4C237E7D26F3CA3D0059B1BF /* AppDelegate.swift in Sources */,
 				4C237E8726F3CA3D0059B1BF /* X3.xcdatamodeld in Sources */,
 				4C237E7F26F3CA3D0059B1BF /* SceneDelegate.swift in Sources */,
+				4C65A070270B873E0027FE91 /* NuevoUsuarioViewController.swift in Sources */,
+				4CA01CC12703AEF500359D8D /* Alamofire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KJL4J27SX;
 				INFOPLIST_FILE = X3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KJL4J27SX;
 				INFOPLIST_FILE = X3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,6 +375,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C16991D26FA4DE600F197E3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+		4CA01CBD2703A21F00359D8D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C16991E26FA4DE600F197E3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C16991D26FA4DE600F197E3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4CA01CBE2703A21F00359D8D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CA01CBD2703A21F00359D8D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4C237E8526F3CA3D0059B1BF /* X3.xcdatamodeld */ = {
