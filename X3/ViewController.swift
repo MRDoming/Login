@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var contraseña: UITextField!
     
-    let emailCorrecto: String = "culo"
+    let emailCorrecto: String = "hola"
     //let contraseñaCorrecta: String = "canasta"
 
     var laImagen: String = ""
